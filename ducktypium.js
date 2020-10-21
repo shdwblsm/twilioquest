@@ -11,7 +11,7 @@ class Ducktypium {
 			if (this.color === 'blue') { console.log('purple'); }
 			if (this.color === 'yellow') { console.log('orange'); }
 			
-			break;
+			
 	
 		} catch(e) {
 		
