@@ -54,11 +54,17 @@ class Ducktypium {
 			
 	}
 	
-	calibrate() { 
+	calibrate(coloraxis) { 
 	
 	// Sort numbers smallest to largest
+	var calibrate = coloraxis.sort();
+	
+
 	// Multiply each number in the array by 3
-	// Assign the resulting array to the Ducktypium instance's calibrationSequence variable
+	this.calibrationSequence = calibrate.map(number => number * 3)
+
+// Assign the resulting array to the Ducktypium instance's calibrationSequence variable	
+	return this.calibrationSequence;
 	
 	}
 	
