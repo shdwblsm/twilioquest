@@ -1,0 +1,8 @@
+Executing script: D:\Projects\TWILIOQUEST\PythonisticTemple\functions.py
+Script arguments: 
+Output:
+Traceback (most recent call last):
+  File "D:\Projects\TWILIOQUEST\PythonisticTemple\functions.py", line 4, in <module>
+    friend = sys.argv.pop(1)
+IndexError: pop index out of range
+
